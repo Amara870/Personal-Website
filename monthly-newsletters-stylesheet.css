@@ -1,0 +1,138 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 550px;
+    padding-right: 500px;
+
+}
+
+.flex-item{
+    flex: 1;
+    padding: 20px;
+    align-items: center;
+    margin: 10px;
+}
+
+@media (max-width: 600px){
+    .flex-container{
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+header{
+    text-align: center;
+    font-size: large;
+    padding-top: 50px;
+}
+
+.grid-container {
+    padding-left: 400px;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.flex-item {
+    text-decoration: none;
+    color: rgb(0, 17, 255);
+    position: relative;
+}
+
+.flex-item .preview {
+    display: grid;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 10;
+}
+
+.flex-item .preview img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-item .preview p {
+    margin: 5px 0;
+}
+
+.flex-item .learn {
+    display: grid;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 10;
+}
+
+.flex-item .learn h3{
+    text-align: center;
+}
+
+.flex-item .learn img {
+    width: 100%;
+    height: 280px;
+}
+
+.flex-item .learn p {
+    margin: 5px 0;
+    font-size: larger;
+}
+
+.flex-item .article {
+    display: grid;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 10;
+}
+
+.flex-item .article img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-item .article p {
+    margin: 5px 0;
+}
+
+body{
+    background-color: rgb(221, 134, 247);
+}
+
+footer{
+    /*center the text*/
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer{
+    /*center the text*/
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
